@@ -1,0 +1,20 @@
+{
+  "name": "Massbio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express"           : "3.4.7",
+    "express-session"   : "*",
+    "express-flash"     : "*",
+    "express-ejs-layouts" : "*",
+    "ejs"               : "*",
+    "ejs-locals"        : "*",
+    "connect-assets" : "*",
+    "twitter" : "*",
+    "moment" : "*",
+    "autolinker" : "*"
+  }
+}
