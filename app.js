@@ -47,7 +47,7 @@ d.run(function () {
 
     app.get("/", verifySession, function (req, res) {
         var params = {screen_name: 'MassiveBio', count: 4, exclude_replies: true};
-        res.send("alert")
+        res.send("alert") 
     })
 
     var httpServer = http.createServer(app);
